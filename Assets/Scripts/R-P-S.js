@@ -27,7 +27,6 @@ function validateUser(){
     }
 }
 
-
 function playGame(e){
     const playerChoice = e.target.getAttribute('alt');
     const computerChoice = getComputerChoice();
@@ -126,7 +125,6 @@ function playGame(e){
     }
 
     
-
 }
 
 function getComputerChoice(){
@@ -163,5 +161,5 @@ function clearModal(e) {
 window.addEventListener("click", clearModal);
 
 
-restatBtn.addEventListener('click',restartGame)
+restatBtn.addEventListener('click',restartGame);
 startBtn.addEventListener('click',validateUser);
